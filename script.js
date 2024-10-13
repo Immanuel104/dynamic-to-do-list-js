@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Function to remove a task from Local Storage
+"classList.add"
     function removeTaskFromStorage(taskText) {
         const storedTasks = JSON.parse(localStorage.getItem('tasks') || '[]');
         const updatedTasks = storedTasks.filter(task => task !== taskText);
